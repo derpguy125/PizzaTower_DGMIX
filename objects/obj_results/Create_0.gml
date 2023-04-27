@@ -12,5 +12,5 @@ if global.collect >= global.brank and rank != "S" and rank != "A" then
 	rank = "B"
 if global.collect >= global.crank and rank != "S" and rank != "A" and rank != "B" then
 	rank = "C"
-if global.collect  < global.drank and rank != "S" and rank != "A" and rank != "B" and rank != "C" then
+if global.collect  < global.crank and rank != "S" and rank != "A" and rank != "B" and rank != "C" then
 	rank = "D"
