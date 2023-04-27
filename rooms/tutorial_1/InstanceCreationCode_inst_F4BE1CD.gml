@@ -1,0 +1,1 @@
+prompt[0] = "Hello there, Pizzaman! Stay a while... stay forever! Muahahahahahaha!! Yours, DG."

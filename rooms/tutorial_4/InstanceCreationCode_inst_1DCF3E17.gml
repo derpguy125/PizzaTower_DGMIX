@@ -1,0 +1,1 @@
+prompt[0] = "...Yeah, don't forget to SUPERJUMP."

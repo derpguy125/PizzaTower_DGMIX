@@ -1,0 +1,3 @@
+pal_swap_init_system(0)
+
+global.roomname = "WHAT JAPAN CALLS PIZZA TOWER 2#IS WHAT WE CALL PIZZA TOWER: THE LOST LEVELS"
