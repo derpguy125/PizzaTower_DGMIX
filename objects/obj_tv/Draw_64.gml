@@ -46,13 +46,13 @@ draw_sprite_ext(tvsprite, -1, 832, 74, 1, 1, 1, c_white, alpha)
 draw_sprite(spr_roomnamebg,0,480,yi2)
 draw_text_transformed(xi2, yi2, string_hash_to_newline(global.roomname), 0.5, 0.5, 0)
 
-if (global.combo != 0 && global.combotime != 0 && (tvsprite == spr_tvdefault || tvsprite == spr_tvcombo))
-    draw_text(848, 172, "COMBO: " + string_hash_to_newline(global.combo))
+if (global.combo != 0 && global.combotime != 0)
+    draw_text(848, 168, "COMBO: " + string_hash_to_newline(global.combo))
 if (tvsprite == spr_tvdefault)
 {
     chose = 0
 }
-draw_text(832, 60, string_hash_to_newline(global.collect))
+draw_text(192, 60, string_hash_to_newline(global.collect))
 
 if (global.combotime > 0)
     draw_text(832, 200, string_hash_to_newline(string(global.combotime)))

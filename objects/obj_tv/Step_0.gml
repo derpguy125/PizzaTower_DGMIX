@@ -1,4 +1,4 @@
-if (room == rank_room || room == timesuproom || room == Realtitlescreen || room == CliffCutscene)
+if (room == rank_room || room = results_room || room == timesuproom || room == Realtitlescreen || room == CliffCutscene)
     visible = false
 else
     visible = true
@@ -133,8 +133,6 @@ else if (obj_player.state == 53)
 }
 else if (global.combo != 0 && global.combotime != 0 && (tvsprite == spr_tvdefault || tvsprite == spr_tvcombo || tvsprite == spr_tvescape))
 {
-    tvsprite = spr_tvcombo
-    image_speed = 0
     if (global.combo >= 4)
         imageindexstore = 3
     else

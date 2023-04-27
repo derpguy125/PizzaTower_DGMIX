@@ -17,9 +17,10 @@ else if (global.playerhealth == 2)
 else if (global.playerhealth == 1)
     draw_sprite_ext(spr_pizzahealthbar, 7, 100, 80, 1, 1, 1, c_white, alpha)
 
-/*
+
 if (obj_player.state != 48)
 {
+/*
     if (obj_player.character == "P")
     {
         if (!((obj_player.state == 62 || obj_player.state == 16 || obj_player.state == 47 || (obj_player.state == 47 && obj_player.sprite_index == spr_player_bossintro) || (obj_player.state == 47 && obj_player.sprite_index == spr_player_idle) || obj_player.state == 20 || obj_player.state == 30 || obj_player.state == 29 || obj_player.state == 26 || obj_player.state == 31 || obj_player.state == 35 || obj_player.state == 85 || obj_player.state == 39 || obj_player.state == 40 || obj_player.state == 44 || obj_player.state == 41 || obj_player.state == 42 || obj_player.state == 43 || obj_player.state == 50 || (obj_player.state == 47 && obj_player.sprite_index == spr_player_levelcomplete) || (obj_player.state == 70 && shake_mag > 0) || obj_player.state == 84 || obj_player.state == 67 || obj_player.state == 56 || obj_player.state == 58 || obj_player.state == 63 || obj_player.state == 83 || obj_player.state == 55 || obj_player.state == 66 || obj_player.state == 49 || obj_player.sprite_index == spr_player_victory || obj_player.state == 40)))
