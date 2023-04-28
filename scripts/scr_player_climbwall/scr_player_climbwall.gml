@@ -46,6 +46,7 @@ function scr_player_climbwall()
 	    if (mach2 >= 100)
 	    {
 	        mach2 = 100
+			momemtum = 1
 	        instance_create(x, y, obj_jumpdust)
 	        vsp = -9
 	        sprite_index = spr_mach3
@@ -55,6 +56,7 @@ function scr_player_climbwall()
 	    else
 	    {
 	        mach2 = 35
+			momemtum = 1
 	        instance_create(x, y, obj_jumpdust)
 	        vsp = -9
 	        state = 63
