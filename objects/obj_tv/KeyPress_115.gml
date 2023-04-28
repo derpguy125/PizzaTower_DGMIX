@@ -1,7 +1,7 @@
 tilesvisible = !tilesvisible
 
 with obj_solid {
-	if (object_get_parent(object_index) != obj_destructibles && object_index != obj_reverseminipillar && object_index != obj_minipillar)
+	if sprite_index = spr_wall
 		visible = other.tilesvisible
 	else visible = true
 }
