@@ -37,6 +37,10 @@ with (obj_player)
 	targetDoor = "A"
 	hallway = false
 	hallwaydirection = 1
+	
+	room_startX = x
+	room_startY = y
+	
     flash = 0
     global.key_inv = 0
     global.shroomfollow = 0

@@ -15,6 +15,9 @@ if (jingle == 0)
 				else
 					currentlyplaying = music_scary
 				break
+			case results_room:
+				currentlyplaying = music_results
+				break
 			case tutorial_1:
 				currentlyplaying = music_funiculi
 				break

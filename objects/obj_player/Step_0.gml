@@ -403,6 +403,13 @@ with (obj_player)
             toomuchalarm1 = 6
         }
     }
+	
+	if y > room_height + 128 then {
+		state = 0
+		x = room_startX
+		y = room_startY
+	}
+	
     if (state != 65 && state != 59 && state != 8 && state != 32 && sprite_index != spr_player_crouchshoot && state != 58 && state != 26 && state != 30 && state != 66 && state != 61 && state != 60)
         mask_index = spr_player_mask
     else

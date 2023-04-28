@@ -3,7 +3,7 @@ with (obj_player)
     if (key_up && (state == 0 || state == 62 || state == 63 || state == 83) && (!instance_exists(obj_noisesatellite)) && (!instance_exists(obj_fadeout)) && state != 57 && state != 54)
     {
 		with obj_music {
-			currentlyplaying = noone	
+			currentlyplaying = music_XXXX	
 		}
         mach2 = 0
         obj_camera.chargecamera = 0
