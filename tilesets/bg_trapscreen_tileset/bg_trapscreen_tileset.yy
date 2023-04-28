@@ -15,10 +15,7 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": {
-    "name": "bg_trapscreen_tileset_sprite",
-    "path": "sprites/bg_trapscreen_tileset_sprite/bg_trapscreen_tileset_sprite.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",

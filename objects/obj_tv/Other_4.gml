@@ -5,8 +5,10 @@ if room != Realtitlescreen {
 	alarm[1] = 200
 }
 
-with obj_solid
-	visible = other.tilesvisible
+with obj_solid {
+	if (object_index != obj_destructibles)
+		visible = other.tilesvisible
+}
 with obj_slope
 	visible = other.tilesvisible
 with obj_platform

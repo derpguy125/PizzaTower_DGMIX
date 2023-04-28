@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Tilesets",
-    "path": "folders/Sprites/Tilesets.yy",
+    "name": "utmt bullcrap",
+    "path": "folders/Sprites/Tilesets/utmt bullcrap.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
