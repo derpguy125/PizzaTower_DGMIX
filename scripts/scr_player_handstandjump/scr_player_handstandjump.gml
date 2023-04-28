@@ -9,10 +9,7 @@ function scr_player_handstandjump()
 	    grav = 0.5
 	momemtum = 1
 	dir = xscale
-	if (movespeed < 10 && grounded)
-        movespeed += 0.5
-    else if (!grounded)
-        movespeed = 10
+    movespeed = 10
 	if ((floor(image_index) == (image_number - 1)) && !key_attack)
 	{
 		image_speed = 0.35
