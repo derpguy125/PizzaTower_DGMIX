@@ -10,6 +10,9 @@ function scr_player_Sjump()
 	crouchslideAnim = 1
 	crouchAnim = 0
 	machhitAnim = 0
+	
+	move = (key_left + key_right)
+	
 	if (sprite_index == spr_Sjump)
 	    vsp--
 	if (sprite_index == spr_player_supersidejump)
@@ -48,6 +51,8 @@ function scr_player_Sjump()
 	}
 	if key_attack2
 	{
+		vsp = 0
+		if move != 0 then xscale = move
 		movespeed = 12
 		machhitAnim = 0
 		state = 83
