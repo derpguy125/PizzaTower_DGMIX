@@ -21,12 +21,12 @@ function scr_getinput()
 	key_start = (keyboard_check_pressed(global.key_start) || gamepad_button_check_pressed(0, global.key_startC) || keyboard_check_pressed(vk_return))
 	key_escape = (keyboard_check_pressed(vk_escape) || gamepad_button_check(0, gp_select) || keyboard_check_pressed(vk_escape))
 	gamepad_set_axis_deadzone(0, 0.5)
-	if (keyboard_check(vk_f1) && global.funmode == 0)
+	if (keyboard_check_pressed(vk_f1) && global.funmode == 0)
 	{
 	    global.funmode = 1
 	    queue_message("Fun mode activated... EG. all nerd blocks were destroyed.")
 	}
-	if (keyboard_check(vk_f2) && obj_player.character == "P")
+	if (keyboard_check_pressed(vk_f2) && obj_player.character == "P")
 	{
 	    with (obj_player)
 	    {
@@ -46,12 +46,12 @@ function scr_getinput()
 	        queue_message("Congratulation! You are now The Noise!")
 	    }
 	}
-	if (keyboard_check(vk_f9) && (!instance_exists(obj_fakepeppino)))
+	if (keyboard_check_pressed(vk_f9) && (!instance_exists(obj_fakepeppino)))
 	{
 	    instance_create(obj_player.x, obj_player.y, obj_fakepeppino)
 	    queue_message("Boss 4 summoned.")
 	}
-	if (keyboard_check(vk_f4))
+	if (keyboard_check_pressed(vk_f4))
 	{
 	    queue_message("Solid visibility was toggled.")
 	}
