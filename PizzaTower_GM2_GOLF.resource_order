@@ -2,16 +2,16 @@
   "FolderOrderSettings": [
     {"name":"Collects","order":11,"path":"folders/Objects/Collects.yy",},
     {"name":"Enemies","order":10,"path":"folders/Objects/Enemies.yy",},
+    {"name":"miner level idk yet","order":8,"path":"folders/Rooms/miner level idk yet.yy",},
     {"name":"Titlescreen shit","order":4,"path":"folders/Rooms/Titlescreen shit.yy",},
     {"name":"Tutorial","order":3,"path":"folders/Rooms/Tutorial.yy",},
     {"name":"Player Scripts","order":6,"path":"folders/Scripts/Player Scripts.yy",},
+    {"name":"music","order":83,"path":"folders/Sounds/music.yy",},
     {"name":"BGs","order":894,"path":"folders/Sprites/BGs.yy",},
     {"name":"Noise","order":892,"path":"folders/Sprites/Noise.yy",},
     {"name":"Peppino","order":893,"path":"folders/Sprites/Peppino.yy",},
     {"name":"Tilesets","order":874,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"TV","order":895,"path":"folders/Sprites/TV.yy",},
-    {"name":"miner level idk yet","order":8,"path":"folders/Rooms/miner level idk yet.yy",},
-    {"name":"music","order":83,"path":"folders/Sounds/music.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_playerN_mach3","order":65,"path":"sprites/spr_playerN_mach3/spr_playerN_mach3.yy",},
