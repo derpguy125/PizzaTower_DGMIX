@@ -28,11 +28,11 @@ switch obj_player.character {
 		break;
 }
 
-if current_sprite != spr_scooter and current_sprite != spr_tumble {
-	current_sprite = spr_scooter	
+if sprite_index != spr_scooter and sprite_index != spr_tumble {
+	sprite_index = spr_scooter
 }
 
-if (key_right2 && current_sprite == spr_scooter)
+if (key_right2 && sprite_index == spr_scooter)
 {
     if (global.paletteselect < sprite_get_width(spr_palette) - 1)
     {
@@ -40,7 +40,7 @@ if (key_right2 && current_sprite == spr_scooter)
         scr_sound(sound_points)
     }
 }
-if ((-key_left2) && current_sprite == spr_scooter)
+if ((-key_left2) && sprite_index == spr_scooter)
 {
     if (global.paletteselect > 0)
     {
@@ -48,5 +48,5 @@ if ((-key_left2) && current_sprite == spr_scooter)
         scr_sound(sound_points)
     }
 }
-if (current_sprite == spr_scooter && (!instance_exists(obj_superdashcloud)))
+if (sprite_index == spr_scooter && (!instance_exists(obj_superdashcloud)))
     instance_create((x - 100), y, obj_superdashcloud)
