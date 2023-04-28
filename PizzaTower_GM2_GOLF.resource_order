@@ -12,6 +12,7 @@
     {"name":"Peppino","order":893,"path":"folders/Sprites/Peppino.yy",},
     {"name":"Tilesets","order":874,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"TV","order":895,"path":"folders/Sprites/TV.yy",},
+    {"name":"fuck","order":896,"path":"folders/Sprites/fuck.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_playerN_mach3","order":65,"path":"sprites/spr_playerN_mach3/spr_playerN_mach3.yy",},
@@ -306,6 +307,7 @@
     {"name":"spr_sausageman_stunfall","order":797,"path":"sprites/spr_sausageman_stunfall/spr_sausageman_stunfall.yy",},
     {"name":"spr_sausagemannocigar_stunfalltrans","order":798,"path":"sprites/spr_sausagemannocigar_stunfalltrans/spr_sausagemannocigar_stunfalltrans.yy",},
     {"name":"spr_sausageman_stunfalltrans","order":793,"path":"sprites/spr_sausageman_stunfalltrans/spr_sausageman_stunfalltrans.yy",},
+    {"name":"obj_hardblock","order":13,"path":"objects/obj_hardblock/obj_hardblock.yy",},
     {"name":"spr_sausagemannocigar_hitceilling","order":795,"path":"sprites/spr_sausagemannocigar_hitceilling/spr_sausagemannocigar_hitceilling.yy",},
     {"name":"spr_sausageman_hitceilling","order":791,"path":"sprites/spr_sausageman_hitceilling/spr_sausageman_hitceilling.yy",},
     {"name":"spr_sausagemannocigar_flying","order":794,"path":"sprites/spr_sausagemannocigar_flying/spr_sausagemannocigar_flying.yy",},
@@ -583,6 +585,7 @@
     {"name":"spr_playerN_mach3jump","order":69,"path":"sprites/spr_playerN_mach3jump/spr_playerN_mach3jump.yy",},
     {"name":"spr_player_handgesture2","order":73,"path":"sprites/spr_player_handgesture2/spr_player_handgesture2.yy",},
     {"name":"spr_player_handgesture1","order":72,"path":"sprites/spr_player_handgesture1/spr_player_handgesture1.yy",},
+    {"name":"floor_3","order":3,"path":"rooms/floor_3/floor_3.yy",},
     {"name":"spr_player_hanstandjump","order":78,"path":"sprites/spr_player_hanstandjump/spr_player_hanstandjump.yy",},
     {"name":"spr_player_gottreasure","order":64,"path":"sprites/spr_player_gottreasure/spr_player_gottreasure.yy",},
     {"name":"spr_player_idlevomitblood","order":88,"path":"sprites/spr_player_idlevomitblood/spr_player_idlevomitblood.yy",},
