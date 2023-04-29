@@ -7,7 +7,7 @@ if (spr == spr_cheeseblob)
 }
 if (spr == spr_cheesemaker)
 {
-    sprgot = 714
+    sprgot = spr_beantreasuregot
     spridle = spr_beantreasure
 }
 if (sprite_index != sprgot)

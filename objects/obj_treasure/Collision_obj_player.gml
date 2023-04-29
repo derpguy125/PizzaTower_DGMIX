@@ -1,7 +1,12 @@
 with (obj_player)
 {
-    treasure_x = x
-    treasure_y = y - 32
+	if instance_exists(obj_lappingtarget) {
+		treasure_x = obj_lappingtarget.x + 16
+		treasure_y = obj_lappingtarget.y
+	} else {
+		treasure_x = 480
+		treasure_y = 270
+	}
     treasure_room = room
     if grounded
     {

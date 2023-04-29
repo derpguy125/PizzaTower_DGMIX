@@ -38,6 +38,10 @@ if targetDoor = "E" && instance_exists(obj_doorE) {
 		
 		y = obj_doorE.y -14
 }
+if targetDoor = "LAP" && instance_exists(obj_lappingtarget) {
+	x = obj_lappingtarget.x + 16
+	y = obj_lappingtarget.y -14
+}
 
 room_startX = x
 room_startY = y

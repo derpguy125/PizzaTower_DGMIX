@@ -3,12 +3,12 @@
   "resourceVersion": "1.0",
   "name": "sound_crawl",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "sfx",
+    "path": "audiogroups/sfx",
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 0,
+  "compression": 1,
   "conversionMode": 0,
   "duration": 1.1,
   "parent": {
