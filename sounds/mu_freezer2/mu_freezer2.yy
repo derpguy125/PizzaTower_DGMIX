@@ -1,0 +1,23 @@
+{
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mu_freezer2",
+  "audioGroupId": {
+    "name": "music",
+    "path": "audiogroups/music",
+  },
+  "bitDepth": 1,
+  "bitRate": 128,
+  "compression": 1,
+  "conversionMode": 0,
+  "duration": 149.31592,
+  "parent": {
+    "name": "Freezer",
+    "path": "folders/Sounds/Musics/Level Music/Freezer.yy",
+  },
+  "preload": false,
+  "sampleRate": 44100,
+  "soundFile": "mu_freezer2.ogg",
+  "type": 0,
+  "volume": 0.25,
+}

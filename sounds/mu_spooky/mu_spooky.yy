@@ -15,9 +15,9 @@
     "name": "Spooky",
     "path": "folders/Sounds/Musics/Level Music/Spooky.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_spooky.ogg",
+  "soundFile": "mu_spooky.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.25,
 }

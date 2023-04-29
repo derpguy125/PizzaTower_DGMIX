@@ -41,7 +41,16 @@ if (global.panic == 1 && jingle == 0)
 			currentlyplaying = mu_escapeN
 		else
 			currentlyplaying = mu_pizzatime
-	} else currentlyplaying = mu_lap1
+	} else {
+		if global.laps < 2 {
+			if obj_player.character = "N"
+				currentlyplaying = mu_lap1N
+			else
+				currentlyplaying = mu_lap1
+		} else if global.laps < 3
+			currentlyplaying = mu_freefallingescape
+		else currentlyplaying = mu_lapX
+	}
 if (jingle == 0)
 {
     if (!audio_is_playing(currentlyplaying))
