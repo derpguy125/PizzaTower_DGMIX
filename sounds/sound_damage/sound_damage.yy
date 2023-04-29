@@ -3,12 +3,12 @@
   "resourceVersion": "1.0",
   "name": "sound_damage",
   "audioGroupId": {
-    "name": "sfx",
-    "path": "audiogroups/sfx",
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 1,
+  "compression": 0,
   "conversionMode": 0,
   "duration": 1.714,
   "parent": {

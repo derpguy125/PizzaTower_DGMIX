@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_lappingtarget",
-    "path": "sprites/spr_lappingtarget/spr_lappingtarget.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": false,
 }

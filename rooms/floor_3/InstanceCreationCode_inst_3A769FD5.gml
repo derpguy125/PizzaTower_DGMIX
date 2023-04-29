@@ -1,1 +1,1 @@
-targetRoom = floor_1
+targetRoom = floor_2
