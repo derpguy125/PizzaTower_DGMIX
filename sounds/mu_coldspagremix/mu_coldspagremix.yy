@@ -15,9 +15,9 @@
     "name": "Cold Spaghetti",
     "path": "folders/Sounds/Musics/Level Music/Cold Spaghetti.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_coldspagremix.ogg",
+  "soundFile": "mu_coldspagremix.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.25,
 }

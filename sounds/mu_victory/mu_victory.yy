@@ -15,9 +15,9 @@
     "name": "Musics",
     "path": "folders/Sounds/Musics.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
   "soundFile": "mu_victory.ogg",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.25,
 }

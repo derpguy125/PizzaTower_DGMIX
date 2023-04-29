@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mu_results.ogg",
   "type": 0,
-  "volume": 0.15,
+  "volume": 0.25,
 }

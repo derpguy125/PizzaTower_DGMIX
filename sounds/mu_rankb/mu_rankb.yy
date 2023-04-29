@@ -15,9 +15,9 @@
     "name": "Jingles",
     "path": "folders/Sounds/Musics/Jingles.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_rankb",
+  "soundFile": "mu_rankb.wav",
   "type": 0,
-  "volume": 0.58,
+  "volume": 0.25,
 }

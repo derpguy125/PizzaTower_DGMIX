@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 1,
   "conversionMode": 0,
-  "duration": 107.66402,
+  "duration": 116.00689,
   "parent": {
     "name": "One Pizza at a Time",
     "path": "folders/Sounds/Musics/Level Music/One Pizza at a Time.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_onepizza.ogg",
+  "soundFile": "mu_onepizza.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.25,
 }

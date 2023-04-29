@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 1,
   "conversionMode": 0,
-  "duration": 146.93878,
+  "duration": 146.88524,
   "parent": {
     "name": "Desert",
     "path": "folders/Sounds/Musics/Level Music/Desert.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
   "soundFile": "mu_desert.ogg",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.25,
 }

@@ -15,9 +15,9 @@
     "name": "One Pizza at a Time",
     "path": "folders/Sounds/Musics/Level Music/One Pizza at a Time.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
   "soundFile": "mu_onepizzaremix.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.25,
 }

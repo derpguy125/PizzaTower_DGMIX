@@ -15,9 +15,9 @@
     "name": "Sewer",
     "path": "folders/Sounds/Musics/Level Music/Sewer.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
   "soundFile": "mu_sewer.ogg",
   "type": 0,
-  "volume": 0.09,
+  "volume": 0.25,
 }

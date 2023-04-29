@@ -15,9 +15,9 @@
     "name": "Freezer",
     "path": "folders/Sounds/Musics/Level Music/Freezer.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_freezer.ogg",
+  "soundFile": "mu_freezer.wav",
   "type": 0,
-  "volume": 0.19,
+  "volume": 0.25,
 }
