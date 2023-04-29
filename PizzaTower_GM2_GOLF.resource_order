@@ -8,11 +8,11 @@
     {"name":"Player Scripts","order":6,"path":"folders/Scripts/Player Scripts.yy",},
     {"name":"music","order":84,"path":"folders/Sounds/music.yy",},
     {"name":"BGs","order":894,"path":"folders/Sprites/BGs.yy",},
+    {"name":"fuck","order":896,"path":"folders/Sprites/fuck.yy",},
     {"name":"Noise","order":892,"path":"folders/Sprites/Noise.yy",},
     {"name":"Peppino","order":893,"path":"folders/Sprites/Peppino.yy",},
     {"name":"Tilesets","order":874,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"TV","order":895,"path":"folders/Sprites/TV.yy",},
-    {"name":"fuck","order":896,"path":"folders/Sprites/fuck.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_playerN_mach3","order":65,"path":"sprites/spr_playerN_mach3/spr_playerN_mach3.yy",},
