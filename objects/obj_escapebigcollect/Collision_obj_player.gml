@@ -6,4 +6,8 @@ if (!audio_is_playing(sound_pizzagot))
 
 global.combotime = 60 * 4
 
+if global.panic {
+	global.fill += seconds_to_fill(2)	
+}
+
 instance_destroy()
