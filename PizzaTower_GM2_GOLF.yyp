@@ -706,6 +706,7 @@
     {"id":{"name":"spr_peppermanmid_charge","path":"sprites/spr_peppermanmid_charge/spr_peppermanmid_charge.yy",},},
     {"id":{"name":"spr_peppermanmid","path":"sprites/spr_peppermanmid/spr_peppermanmid.yy",},},
     {"id":{"name":"spr_boxcrusher_land","path":"sprites/spr_boxcrusher_land/spr_boxcrusher_land.yy",},},
+    {"id":{"name":"tutorial_lap","path":"rooms/tutorial_lap/tutorial_lap.yy",},},
     {"id":{"name":"spr_boxcrusher_fall","path":"sprites/spr_boxcrusher_fall/spr_boxcrusher_fall.yy",},},
     {"id":{"name":"spr_boxcrusher_idle","path":"sprites/spr_boxcrusher_idle/spr_boxcrusher_idle.yy",},},
     {"id":{"name":"spr_grabbiehand_hifive","path":"sprites/spr_grabbiehand_hifive/spr_grabbiehand_hifive.yy",},},
@@ -1070,6 +1071,7 @@
     {"id":{"name":"spr_playerN_ladderdown","path":"sprites/spr_playerN_ladderdown/spr_playerN_ladderdown.yy",},},
     {"id":{"name":"spr_playerN_jump","path":"sprites/spr_playerN_jump/spr_playerN_jump.yy",},},
     {"id":{"name":"spr_playerN_fall","path":"sprites/spr_playerN_fall/spr_playerN_fall.yy",},},
+    {"id":{"name":"music_lapping","path":"sounds/music_lapping/music_lapping.yy",},},
     {"id":{"name":"spr_playerN_ladder","path":"sprites/spr_playerN_ladder/spr_playerN_ladder.yy",},},
     {"id":{"name":"spr_playerN_laddermove","path":"sprites/spr_playerN_laddermove/spr_playerN_laddermove.yy",},},
     {"id":{"name":"spr_playerN_crouchfall","path":"sprites/spr_playerN_crouchfall/spr_playerN_crouchfall.yy",},},
@@ -1553,6 +1555,7 @@
     {"roomId":{"name":"floor_1","path":"rooms/floor_1/floor_1.yy",},},
     {"roomId":{"name":"floor_2","path":"rooms/floor_2/floor_2.yy",},},
     {"roomId":{"name":"floor_3","path":"rooms/floor_3/floor_3.yy",},},
+    {"roomId":{"name":"tutorial_lap","path":"rooms/tutorial_lap/tutorial_lap.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"png","directory":"","groupParent":null,"isScaled":false,"loadType":"default","mipsToGenerate":0,"targets":-1,},

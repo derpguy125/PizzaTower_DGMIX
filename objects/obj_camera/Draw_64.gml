@@ -94,22 +94,11 @@ if (obj_player.state != 48)
     draw_set_color(c_white)
     if (timestop == 0)
     {
-        if (global.seconds < 10)
-        {
-            if (global.minutes < 1)
-                draw_set_color(c_red)
-            else
-                draw_set_color(c_white)
-            draw_text((random_range(1, -1) + 480), (random_range(1, -1) + 65), string_hash_to_newline(((string(global.minutes) + ":0") + string(global.seconds))))
-        }
-        else if (global.seconds >= 10)
-        {
-            if (global.minutes < 1)
-                draw_set_color(c_red)
-            else
-                draw_set_color(c_white)
-            draw_text((random_range(1, -1) + 480), (random_range(1, -1) + 65), string_hash_to_newline(((string(global.minutes) + ":") + string(global.seconds))))
-        }
+        if global.fill < seconds_to_fill(30)
+            draw_set_color(c_red)
+        else
+            draw_set_color(c_white)
+        draw_text((random_range(1, -1) + 480), (random_range(1, -1) + 65), string_hash_to_newline(((string(global.fill)))))
     }
     if (global.key_inv == 1)
         draw_sprite_ext(spr_key, -1, 50, 30, 1, 1, 1, c_white, alpha)

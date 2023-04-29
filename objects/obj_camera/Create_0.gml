@@ -4,6 +4,7 @@ alarm[1] = 60
 global.seconds = 59
 global.minutes = 1
 global.fill = seconds_to_fill(120)
+global.startfill = global.fill
 angle = 0
 frame = 0
 global.pizza = 0

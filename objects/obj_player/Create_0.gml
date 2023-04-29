@@ -57,7 +57,10 @@ with (obj_player)
     global.pizzacoin = 0
     global.toppintotal = 1
     global.hit = 0
+	global.lapping = 0
+	global.laps = 0
     global.baddieroom = ds_list_create()
+	global.escapecollect = ds_list_create()
     key_particles = 0
     barrel = 0
     bounce = 0

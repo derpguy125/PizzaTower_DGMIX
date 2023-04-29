@@ -8,13 +8,16 @@ else
     timestop = 1
 if (room == timesuproom)
     timestop = 1
-if (global.seconds == 0 && global.minutes == 0 && room != timesuproom && (!instance_exists(obj_endlevelfade)))
+if (global.fill <= 0 && room != timesuproom && (!instance_exists(obj_endlevelfade)))
 {
     obj_player.state = 29
     room = timesuproom
     obj_player.image_index = 0
 }
-if (global.seconds < 0)
+if global.fill > 0 and timestop == 0 {
+	global.fill --
+}
+/*if (global.seconds < 0)
 {
     global.seconds = 59
     global.minutes -= 1
@@ -23,7 +26,7 @@ if (global.seconds > 59)
 {
     global.minutes += 1
     global.seconds -= 59
-}
+}*/
 if ((global.panic == 1 && global.minutes < 1) || obj_player.sprite_index == spr_player_timesup)
 {
     shake_mag = 2

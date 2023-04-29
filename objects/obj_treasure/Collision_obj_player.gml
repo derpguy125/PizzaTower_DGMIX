@@ -1,7 +1,7 @@
 with (obj_player)
 {
     treasure_x = x
-    treasure_y = y
+    treasure_y = y - 32
     treasure_room = room
     if grounded
     {

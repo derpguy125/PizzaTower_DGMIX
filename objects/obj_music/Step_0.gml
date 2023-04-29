@@ -36,7 +36,12 @@ if (jingle == 0)
 if (instance_exists(obj_player) && obj_player.state != 57 && room != rank_room && room != timesuproom && obj_player.state != 16 && obj_player.sprite_index != obj_player.spr_Timesup)
     jingle = 0
 if (global.panic == 1 && jingle == 0)
-    currentlyplaying = sound_firstescapetheme
+	if !global.lapping {
+		if obj_player.character = "N"
+			currentlyplaying = music_escapeN
+		else
+			currentlyplaying = sound_firstescapetheme
+	} else currentlyplaying = music_lapping
 if (jingle == 0)
 {
     if (!audio_is_playing(currentlyplaying))
