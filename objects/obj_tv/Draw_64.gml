@@ -52,10 +52,10 @@ if (tvsprite == spr_tvdefault)
 {
     chose = 0
 }
-draw_text(192, 60, string_hash_to_newline(global.collect))
+draw_text(192, 64, string_hash_to_newline(global.collect))
 
 if (global.lapping == 1) {
-	draw_text(32,480,"LAP " + string(global.laps));	
+	draw_text(192,96,"LAP " + string(global.laps));	
 }
 
 if (global.combotime > 0)

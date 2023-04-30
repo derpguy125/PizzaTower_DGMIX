@@ -7,7 +7,7 @@ global.combotime += 60
 global.combotime = clamp(global.combotime,0,60 * 4)
 
 if global.panic {
-	global.fill += 10	
+	global.fill += 15	
 }
 
 instance_create(x, y, obj_10)

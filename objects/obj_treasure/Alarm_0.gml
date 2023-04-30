@@ -1,13 +1,11 @@
 obj_player.state = 44
 obj_player.image_index = 0
 obj_player.sprite_index = obj_player.spr_Timesup
-obj_tv.showtext = 1
 ds_list_clear(global.baddieroom)
 switch room
 {
     case tutorial_john:
-        global.minutes = 2
-        global.seconds = 30
+        global.fill = seconds_to_fill(120)
         break
 }
 

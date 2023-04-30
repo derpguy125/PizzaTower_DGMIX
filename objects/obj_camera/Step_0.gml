@@ -8,6 +8,7 @@ else
     timestop = 1
 if (room == timesuproom)
     timestop = 1
+currentframe ++
 if (global.fill <= 0 && room != timesuproom && (!instance_exists(obj_endlevelfade)))
 {
     obj_player.state = 29
@@ -27,7 +28,13 @@ if (global.seconds > 59)
     global.minutes += 1
     global.seconds -= 59
 }*/
-if ((global.panic == 1 && global.minutes < 1) || obj_player.sprite_index == spr_player_timesup)
+
+if global.panic and global.lapping and global.laps >= 2 {
+	var cam = view_camera[0]
+	
+	camera_set_view_angle(cam, sin(degtorad(currentframe/4)) * (5))
+}
+if ((global.panic == 1 && global.fill < seconds_to_fill(60)) || obj_player.sprite_index == spr_player_timesup)
 {
     shake_mag = 2
     shake_mag_acc = (3 / room_speed)

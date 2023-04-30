@@ -22,3 +22,4 @@ alarm[11] = 1
 global.panicbg = 1
 global.maxwave = 0
 global.wave = 0
+currentframe = 0

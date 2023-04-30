@@ -1,1 +1,1 @@
-targetRoom = tutorial_john
+targetRoom = tutorial_1
