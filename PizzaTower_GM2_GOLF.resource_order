@@ -651,6 +651,7 @@
     {"name":"spr_player_keyget","order":92,"path":"sprites/spr_player_keyget/spr_player_keyget.yy",},
     {"name":"spr_player_hang","order":76,"path":"sprites/spr_player_hang/spr_player_hang.yy",},
     {"name":"spr_player_tackle","order":173,"path":"sprites/spr_player_tackle/spr_player_tackle.yy",},
+    {"name":"floor_5","order":5,"path":"rooms/floor_5/floor_5.yy",},
     {"name":"spr_player_slipnslide","order":153,"path":"sprites/spr_player_slipnslide/spr_player_slipnslide.yy",},
     {"name":"spr_player_ladderdown","order":94,"path":"sprites/spr_player_ladderdown/spr_player_ladderdown.yy",},
     {"name":"spr_player_laddermove","order":95,"path":"sprites/spr_player_laddermove/spr_player_laddermove.yy",},
