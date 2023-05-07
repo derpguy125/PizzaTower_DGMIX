@@ -1,4 +1,4 @@
-if (room == rank_room || room == timesuproom || room == Realtitlescreen || room == CliffCutscene)
+if (room == rank_room || room == timesuproom || room == OLDRealtitlescreen || room == CliffCutscene || room == Intro || room == Cooltitlescreen)
     visible = false
 else
     visible = true

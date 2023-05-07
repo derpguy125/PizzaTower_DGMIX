@@ -1,7 +1,10 @@
-if (jingle == 0)
-{
-    if (room == Realtitlescreen)
-        currentlyplaying = mu_title
+if (jingle == 0) {
+	if (room == Intro)
+		currentlyplaying = mu_bigmoneytitle
+	
+	if (room == Cooltitlescreen || room == OLDRealtitlescreen) && !audio_is_playing(mu_bigmoneytitle) && currentlyplaying == mu_bigmoneytitle
+			currentlyplaying = mu_bigmoneytitleloop
+	
     if (global.panic == 0)
     {
         switch room
@@ -64,6 +67,9 @@ if (jingle == 0)
         audio_resume_sound(currentlyplaying)
     }
 }
+
+
+
 if (room == rank_room)
 {
     jingle = 1

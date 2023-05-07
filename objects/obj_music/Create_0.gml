@@ -1,7 +1,8 @@
-currentlyplaying = 0
+currentlyplaying = mu_bigmoneytitle
 currentlyjingling = 0
 jingle = 0
 global.panic = 0
+
 
 if !audio_group_is_loaded(music) {
 	audio_group_load(music)	

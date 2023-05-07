@@ -57,7 +57,7 @@ function scr_playerreset()
 	    input_buffer_jump = 8
 	    input_buffer_secondjump = 8
 	    input_buffer_highjump = 8
-	    targetRoom = Realtitlescreen
+	    targetRoom = OLDRealtitlescreen
 	    flash = 0
 	    global.key_inv = 0
 	    global.shroomfollow = 0

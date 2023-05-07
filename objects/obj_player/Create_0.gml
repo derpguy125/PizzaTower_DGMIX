@@ -33,7 +33,7 @@ with (obj_player)
     input_buffer_highjump = 8
     player_x = x
     player_y = y
-    targetRoom = Realtitlescreen
+    targetRoom = OLDRealtitlescreen
 	targetDoor = "A"
 	hallway = false
 	hallwaydirection = 1

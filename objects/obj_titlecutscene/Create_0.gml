@@ -4,14 +4,9 @@ vsp = 0
 grav = 0.5
 drop = 0
 
-ini_open("saveData.ini")
-global.paletteselect = ini_read_real("Preferences","Palette",1)
-ini_close();
-global.rankpalette = 0
-global.panic = 0
-colorchange = 0
+alarm[0] = 60
 
-global.undertale = false
+colorchange = 0
 
 	spr_scooter = spr_pepcooter
 	spr_tumble = spr_player_machfreefall

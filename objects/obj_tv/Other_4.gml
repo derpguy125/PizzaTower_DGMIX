@@ -1,6 +1,6 @@
 /// @description something to do with visibility of tiles
 
-if room != Realtitlescreen {
+if room != OLDRealtitlescreen {
 	showtext2 = 1
 	alarm[1] = 200
 }

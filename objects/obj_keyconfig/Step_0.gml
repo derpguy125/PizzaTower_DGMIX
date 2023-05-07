@@ -1,72 +1,23 @@
-if (controller == 0)
-{
-    switch remapphase
-    {
-        case 0:
-            sprite_index = spr_pressup
-            if keyboard_check_pressed(vk_anykey)
-            {
-                global.key_up = keyboard_key
-                remapphase += 1
-            }
-            break
-        case 1:
-            sprite_index = spr_pressright
-            if keyboard_check_pressed(vk_anykey)
-            {
-                global.key_right = keyboard_key
-                remapphase += 1
-            }
-            break
-        case 2:
-            sprite_index = spr_pressleft
-            if keyboard_check_pressed(vk_anykey)
-            {
-                global.key_left = keyboard_key
-                remapphase += 1
-            }
-            break
-        case 3:
-            sprite_index = spr_pressdown
-            if keyboard_check_pressed(vk_anykey)
-            {
-                global.key_down = keyboard_key
-                remapphase += 1
-            }
-            break
-        case 4:
-            sprite_index = spr_pressjump
-            if keyboard_check_pressed(vk_anykey)
-            {
-                global.key_jump = keyboard_key
-                remapphase += 1
-            }
-            break
-        case 5:
-            sprite_index = spr_pressslap
-            if keyboard_check_pressed(vk_anykey)
-            {
-                global.key_slap = keyboard_key
-                remapphase += 1
-            }
-            break
-        case 6:
-            sprite_index = spr_pressdash
-            if keyboard_check_pressed(vk_anykey)
-            {
-                global.key_attack = keyboard_key
-                remapphase += 1
-            }
-            break
-        case 7:
-            sprite_index = spr_ok
-            if keyboard_check_pressed(global.key_jump)
-                instance_destroy()
-            if keyboard_check_pressed(global.key_slap)
-                remapphase = 0
-            break
-    }
+scr_getinput()
 
+if (selecting == -1)
+{
+    if (key_up2 && key_select > -1)
+    {
+        key_select -= 1
+        scr_sound(sound_step)
+    }
+    if (key_down2 && key_select < 9)
+    {
+        key_select += 1
+        scr_sound(sound_step)
+    }
+    if (-key_left2)
+        key_select = -1
+}
+if (key_jump && selecting == -1 && key_select == -1)
+{
+    scr_sound(sound_enemythrow)
     ini_open("saveData.ini")
     ini_write_string("ControlsKeys", "up", global.key_up)
     ini_write_string("ControlsKeys", "right", global.key_right)
@@ -75,84 +26,138 @@ if (controller == 0)
     ini_write_string("ControlsKeys", "jump", global.key_jump)
     ini_write_string("ControlsKeys", "slap", global.key_slap)
     ini_write_string("ControlsKeys", "attack", global.key_attack)
+    ini_write_string("ControlsKeys", "taunt", global.key_taunt)
+    ini_write_string("ControlsKeys", "start", global.key_start)
+	ini_write_string("ControlsKeys", "shoot", global.key_shoot)
     ini_close()
+    if instance_exists(obj_option) {
+        obj_option.visible = true
+		obj_option.buffer = 5
+	}
+    instance_destroy()
 }
-else
+if (selecting == 0)
 {
-    switch remapphase
+    if keyboard_check_pressed(vk_anykey)
     {
-        case 0:
-            sprite_index = spr_pressup
-            if gamepad_button_check_pressed(0, scr_checkanygamepad())
-            {
-                global.key_upC = scr_checkanygamepad()
-                remapphase += 1
-            }
-            break
-        case 1:
-            sprite_index = spr_pressright
-            if gamepad_button_check_pressed(0, scr_checkanygamepad())
-            {
-                global.key_rightC = scr_checkanygamepad()
-                remapphase += 1
-            }
-            break
-        case 2:
-            sprite_index = spr_pressleft
-            if gamepad_button_check_pressed(0, scr_checkanygamepad())
-            {
-                global.key_leftC = scr_checkanygamepad()
-                remapphase += 1
-            }
-            break
-        case 3:
-            sprite_index = spr_pressdown
-            if gamepad_button_check_pressed(0, scr_checkanygamepad())
-            {
-                global.key_downC = scr_checkanygamepad()
-                remapphase += 1
-            }
-            break
-        case 4:
-            sprite_index = spr_pressjump
-            if gamepad_button_check_pressed(0, scr_checkanygamepad())
-            {
-                global.key_jumpC = scr_checkanygamepad()
-                remapphase += 1
-            }
-            break
-        case 5:
-            sprite_index = spr_pressslap
-            if gamepad_button_check_pressed(0, scr_checkanygamepad())
-            {
-                global.key_slapC = scr_checkanygamepad()
-                remapphase += 1
-            }
-            break
-        case 6:
-            sprite_index = spr_pressdash
-            if gamepad_button_check_pressed(0, scr_checkanygamepad())
-            {
-                global.key_attackC = scr_checkanygamepad()
-                remapphase += 1
-            }
-            break
-        case 7:
-            sprite_index = spr_ok
-            if gamepad_button_check_pressed(0, global.key_jumpC)
-                instance_destroy()
-            if gamepad_button_check_pressed(0, global.key_slapC)
-                remapphase = 0
-            break
+        global.key_up = keyboard_key
+        selecting = -1
     }
-
-    ini_open("saveData.ini")
-    ini_write_string("ControllerButton", "up", global.key_upC)
-    ini_write_string("ControllerButton", "right", global.key_rightC)
-    ini_write_string("ControllerButton", "left", global.key_leftC)
-    ini_write_string("ControllerButton", "down", global.key_downC)
-    ini_write_string("ControllerButton", "jump", global.key_jumpC)
-    ini_write_string("ControllerButton", "slap", global.key_slapC)
-    ini_write_string("ControllerButton", "attack", global.key_attackC)
-    ini_close()
+}
+if (key_select == 0 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_up = -1
+}
+if (selecting == 1)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_down = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 1 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_down = -1
+}
+if (selecting == 2)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_right = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 2 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_right = -1
+}
+if (selecting == 3)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_left = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 3 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_left = -1
+}
+if (selecting == 4)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_jump = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 4 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_jump = -1
+}
+if (selecting == 5)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_slap = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 5 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_slap = -1
+}
+if (selecting == 6)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_attack = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 6 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_attack = -1
+}
+if (selecting == 7)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_taunt = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 7 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_taunt = -1
+}
+if (selecting == 8)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_start = keyboard_key
+        selecting = -1
+    }
+}
+if (selecting == 9)
+{
+    if keyboard_check_pressed(vk_anykey)
+    {
+        global.key_shoot = keyboard_key
+        selecting = -1
+    }
+}
+if (key_select == 8 && key_jump && selecting == -1)
+{
+    selecting = key_select
+    global.key_start = -1
 }

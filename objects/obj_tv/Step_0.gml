@@ -1,4 +1,9 @@
-if (room == rank_room || room = results_room || room == timesuproom || room == Realtitlescreen || room == CliffCutscene)
+if current_res != global.option_resolution and global.option_fullscreen != 1 {
+	window_center()
+	current_res = global.option_resolution
+}
+
+if (room == rank_room || room = results_room || room == timesuproom || room == OLDRealtitlescreen || room == CliffCutscene || room == Intro || room == Cooltitlescreen)
     visible = false
 else
     visible = true

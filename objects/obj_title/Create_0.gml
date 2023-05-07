@@ -48,3 +48,5 @@ text = choose(	"NOT MCPIG APPROVED",
 				"YEAH I ADDED ROOM NAMES, SO WHAT?"
 				);
 titletime = irandom_range(0,360);
+
+depth = -999

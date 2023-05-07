@@ -1,5 +1,5 @@
 image_speed = 0.35
-targetRoom = Realtitlescreen
+targetRoom = OLDRealtitlescreen
 target_x = 0
 target_y = 0
 

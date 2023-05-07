@@ -1,6 +1,8 @@
 global.font =  font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:", 1, 0)
 global.font2 = font_add_sprite(spr_font2, ord("!"), 1, 2)
 
+current_res = 0
+
 image_speed = 0.25
 chose = 0
 
