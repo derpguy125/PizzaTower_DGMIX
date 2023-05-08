@@ -5,11 +5,11 @@ ds_list_clear(global.baddieroom)
 switch room
 {
     case tutorial_john:
-        global.fill = seconds_to_fill(120)
+        global.fill = seconds_to_fill(90)
         break
 }
 
 global.wave = 0
-global.maxwave = (((global.minutes * 60) + global.seconds) * 60)
+global.maxwave = (global.fill)
 if global.panicbg
     scr_panicbg_init()

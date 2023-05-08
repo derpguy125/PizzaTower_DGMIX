@@ -4,15 +4,18 @@
 yy = 540
 enabled = false
 
-ini_open("saveData.ini")
-global.paletteselect = ini_read_real("Preferences","Palette",1)
-ini_close();
+
 global.rankpalette = 0
 global.panic = 0
 
 global.undertale = false
 
 ini_open("saveData.ini")
+global.paletteselect = ini_read_real("Option","Palette",1)
+with obj_player {
+	character = ini_read_string("Option","Character","P")
+	scr_characterspr()
+}
 global.option_fullscreen = ini_read_real("Option", "fullscreen", 1)
 global.option_resolution = ini_read_real("Option", "resolution", 1)
 ini_close()

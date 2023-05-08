@@ -1,1 +1,1 @@
-audio_stop_sound(music_escapetheme)
+audio_stop_all()

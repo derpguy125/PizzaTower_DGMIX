@@ -3,9 +3,13 @@
 
 if !selected {
 
-	scr_getinput()
+	hudIndex += 0.25
 
-	if key_down2 and selection < 2 then {
+	scr_getinput()
+	get_player_info()
+	
+	
+	if key_down2 and selection < 3 then {
 		selection ++;
 		scr_sound(sound_points)
 	}
@@ -26,17 +30,23 @@ if !selected {
 			selected = true
 			alarm[1] = 5
 		}
-	
+		
 		if key_jump and selection == 2 {
 			scr_sound(sound_pizzagot)
 			selected = true
 			alarm[2] = 5
 		}
+	
+		if key_jump and selection == 3 {
+			scr_sound(sound_pizzagot)
+			selected = true
+			alarm[3] = 5
+		}
 	}
 	
 	if instance_exists(obj_cursor) {
 		obj_cursor.x = 286
-		obj_cursor.y = 200 + (selection * 64)
+		obj_cursor.y = (150 + 16) + (selection * 64)
 	}
 	
 	if (buffer > 0)

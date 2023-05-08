@@ -6,12 +6,12 @@ font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:", 
 draw_set_font(font)
 draw_set_halign(fa_center)
 draw_set_color(c_white)
-draw_text(480, 200, "ARE YOU SURE?")
+draw_text(480, 200, "ARE YOU SURE ABOUT THIS\nYOU CANT REVERSE A DELETION!!")
 if (optionselected == 0)
     draw_text_colour(400, 300, "NO", c_white, c_white, c_white, c_white, 1)
 else
     draw_text_colour(400, 300, "NO", c_white, c_white, c_white, c_white, 0.5)
 if (optionselected == 1)
-    draw_text_colour(560, 300, "YES", c_white, c_white, c_white, c_white, 1)
+    draw_text_colour(560, 300, "YES", c_red, c_red, c_red, c_red, 1)
 else
     draw_text_colour(560, 300, "YES", c_white, c_white, c_white, c_white, 0.5)

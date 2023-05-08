@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_doorLAP",
+    "path": "sprites/spr_doorLAP/spr_doorLAP.yy",
+  },
   "spriteMaskId": null,
   "visible": false,
 }

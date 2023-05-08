@@ -10,6 +10,7 @@ if (jingle == 0) {
         switch room
         {
             case Titlescreen:
+			case hub_room1:
                 currentlyplaying = mu_hub1
                 break
 			case CliffCutscene:
@@ -22,7 +23,10 @@ if (jingle == 0) {
 				currentlyplaying = mu_results
 				break
 			case tutorial_1:
-				currentlyplaying = mu_funiculi
+				currentlyplaying = mu_qualitytime
+				break
+			case floor_1:
+				currentlyplaying = mu_onepizza
 				break
             
         }
@@ -97,6 +101,8 @@ if (room == rank_room)
 }
 if (room == timesuproom)
 {
-    audio_stop_all()
+    audio_stop_sound(currentlyplaying)
     jingle = 1
+	if !audio_is_playing(mu_timesup)
+		audio_play_sound(mu_timesup,1,0)
 }

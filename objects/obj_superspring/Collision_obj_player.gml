@@ -20,7 +20,7 @@ with (obj_player)
         if (state == 20)
             instance_create(x, y, obj_bombexplosion)
         scr_sound(sound_superjumprelease)
-        sprite_index = spr_player_superjump
+        sprite_index = spr_Sjump
         state = 56
         vsp = -10
         other.image_index = 0

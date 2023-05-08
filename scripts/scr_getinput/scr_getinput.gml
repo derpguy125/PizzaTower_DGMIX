@@ -30,26 +30,6 @@ function scr_getinput()
 	    global.funmode = 1
 	    queue_message("Fun mode activated... EG. all nerd blocks were destroyed.")
 	}
-	if (keyboard_check_pressed(vk_f2) && obj_player.character == "P")
-	{
-	    with (obj_player)
-	    {
-	        character = "N"
-	        scr_characterspr()
-			taunttimer = 20
-		    tauntstoredmovespeed = movespeed
-		    tauntstoredsprite = spr_idle
-		    tauntstoredstate = 0
-		    state = 44
-		    image_index = irandom(sprite_get_number(spr_taunt)-1)
-		    sprite_index = spr_taunt
-	    instance_create(x, y, obj_taunteffect)
-	    }
-	    with (obj_tv)
-	    {
-	        queue_message("Congratulation! You are now The Noise!")
-	    }
-	}
 	if (keyboard_check_pressed(vk_f9) && (!instance_exists(obj_fakepeppino)))
 	{
 	    instance_create(obj_player.x, obj_player.y, obj_fakepeppino)

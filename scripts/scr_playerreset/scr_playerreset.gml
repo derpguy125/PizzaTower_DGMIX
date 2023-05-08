@@ -6,13 +6,15 @@ function scr_playerreset()
 	    instance_destroy(obj_timesup)
 	global.seconds = 59
 	global.minutes = 1
+	global.fill = 9999
 	obj_player.state = 0
 	obj_player.visible = true
-	obj_player.player_x = 240
-	obj_player.player_y = 434
+	obj_player.player_x = x
+	obj_player.player_y = y
 	room = hub_room1
 	ds_list_clear(global.saveroom)
 	ds_list_clear(global.baddieroom)
+	ds_list_clear(global.escapecollect)
 	with (obj_player)
 	{
 	    alarm[0] = -1
@@ -58,6 +60,12 @@ function scr_playerreset()
 	    input_buffer_secondjump = 8
 	    input_buffer_highjump = 8
 	    targetRoom = OLDRealtitlescreen
+		targetDoor = "A"
+		hallway = false
+		hallwaydirection = 1
+	
+		room_startX = x
+		room_startY = y
 	    flash = 0
 	    global.key_inv = 0
 	    global.shroomfollow = 0

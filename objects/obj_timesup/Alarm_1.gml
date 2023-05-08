@@ -1,1 +1,1 @@
-game_restart()
+back_to_the_hub()
