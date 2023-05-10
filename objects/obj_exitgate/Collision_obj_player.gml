@@ -15,8 +15,10 @@ if (global.panic == 1)
             else
                 global.rank = "d"
             var roomname = room_get_name(room)
-			if (string_letters(roomname) = "tutorial") {
-				save_level_data("tutorial")
+			switch string_letters(roomname) {
+				case "tutorial":
+					save_level_data("tutorial")
+					break
 			}
             if (!instance_exists(obj_endlevelfade))
                 instance_create(x, y, obj_endlevelfade)

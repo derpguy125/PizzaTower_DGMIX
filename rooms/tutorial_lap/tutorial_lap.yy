@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "tutorial_lap",
-  "creationCodeFile": "${project_dir}/rooms/room_copyme/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/tutorial_lap/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

@@ -12,4 +12,5 @@ pal_swap_set(currentPal, global.paletteselect, 0)
 draw_sprite(hudSprite,hudIndex,98,450)
 shader_reset()
 
+draw_sprite(bspr_bigmoneytypebeat,0,192,96)
 //draw_text(120,425,string_hash_to_newline("CHARACTER: " + character + "##PALETTE: " + palette))

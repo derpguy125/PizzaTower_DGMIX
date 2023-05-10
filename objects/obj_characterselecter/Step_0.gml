@@ -4,7 +4,7 @@
 subimg += 0.25
 
 scr_getinput()
-get_player_info_2()
+get_player_info()
 
 if key_jump then {
 	scr_sound(sound_pizzagot)
@@ -46,7 +46,7 @@ if (!instance_exists(obj_keyconfig))
 		scr_sound(sound_step)
 	}
 	
-	if (key_right2 && global.paletteselect < 9) {
+	if (key_right2 && global.paletteselect < 20) {
 		global.paletteselect ++
 		scr_sound(sound_step)
 	}

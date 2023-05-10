@@ -21,6 +21,8 @@
     {"name":"inst_30E148CD","path":"rooms/hub_room1/hub_room1.yy",},
     {"name":"inst_320E1F37","path":"rooms/hub_room1/hub_room1.yy",},
     {"name":"inst_6A953892","path":"rooms/hub_room1/hub_room1.yy",},
+    {"name":"inst_4D927910","path":"rooms/hub_room1/hub_room1.yy",},
+    {"name":"inst_68CDCDA9","path":"rooms/hub_room1/hub_room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -47,12 +49,14 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30E148CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":19.0,"x":256.0,"y":-352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_320E1F37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":320.0,"y":-192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A953892","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tilehider","path":"objects/obj_tilehider/obj_tilehider.yy",},"properties":[],"rotation":0.0,"scaleX":2.5,"scaleY":6.5,"x":320.0,"y":-160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D927910","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_startgate","path":"objects/obj_startgate/obj_startgate.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":480.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68CDCDA9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ranksign","path":"objects/obj_ranksign/obj_ranksign.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":704.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":15.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bg_tower","path":"sprites/bg_tower/bg_tower.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Titlescreen shit",
-    "path": "folders/Rooms/Titlescreen shit.yy",
+    "name": "hub crap",
+    "path": "folders/Rooms/hub crap.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

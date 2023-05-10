@@ -5,8 +5,10 @@ function back_to_the_hub(){
 	room_goto(hub_room1)
 	with obj_player {
 		targetDoor = "LAP"
-		sprite_index = spr_pizzaportalentrancestart
-		image_index = 0
+		visible = true
+        sprite_index = spr_pizzaportalentrancestart
+        image_index = 0
+		image_speed = 0.35
 	    obj_player.state = 12
 	    obj_player.grav = 0
 	}
@@ -18,6 +20,7 @@ function back_to_the_hub(){
 	global.panic = 0
 	global.lapping = 0
 	global.laps = 0
+	global.maxcombo = 0
 	
 	with obj_tv {
 		promptx = promptxstart;

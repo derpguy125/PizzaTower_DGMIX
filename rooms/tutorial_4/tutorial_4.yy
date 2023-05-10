@@ -152,6 +152,7 @@
     {"name":"inst_3C528D6A","path":"rooms/tutorial_4/tutorial_4.yy",},
     {"name":"inst_2CBB2F4D","path":"rooms/tutorial_4/tutorial_4.yy",},
     {"name":"inst_1DCF3E17","path":"rooms/tutorial_4/tutorial_4.yy",},
+    {"name":"inst_10158785","path":"rooms/tutorial_4/tutorial_4.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -308,6 +309,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C528D6A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bigcheese","path":"objects/obj_bigcheese/obj_bigcheese.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3680.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2CBB2F4D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bigcheese","path":"objects/obj_bigcheese/obj_bigcheese.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":832.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1DCF3E17","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tvmessagetrigger","path":"objects/obj_tvmessagetrigger/obj_tvmessagetrigger.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":1.5,"x":896.0,"y":704.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10158785","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tvmessagetrigger","path":"objects/obj_tvmessagetrigger/obj_tvmessagetrigger.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":2304.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":1.0,"animationSpeedType":1,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bg_dreamy","path":"sprites/bg_dreamy/bg_dreamy.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
