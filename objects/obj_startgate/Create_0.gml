@@ -5,3 +5,5 @@ targetDoor = "A"
 
 level = "tutorial"
 lvlName = "Sex Cauldron"
+
+siner = 0

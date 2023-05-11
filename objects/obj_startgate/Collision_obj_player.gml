@@ -23,3 +23,4 @@ if (floor(obj_player.image_index) == (obj_player.image_number - 1) && obj_player
             instance_create(x, y, obj_fadeout)
     }
 }
+
