@@ -12,4 +12,8 @@ if (place_meeting(x, (y + 1), obj_player) || place_meeting(x, (y - 1), obj_playe
         instance_destroy()
         tile_layer_delete_at(1, x, y)
     }
+	
+	if (place_meeting(x, (y + 40), obj_player) && obj_player.state == 56)
+        instance_destroy()
 }
+
