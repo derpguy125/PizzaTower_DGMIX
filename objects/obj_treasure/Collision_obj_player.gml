@@ -24,7 +24,6 @@ with (obj_player)
         }
         if (other.sprite_index == other.spridle)
             state = 16
-        other.sprite_index = other.sprgot
         other.x = obj_player.x
         other.y = (obj_player.y - 35)
         obj_tv.alarm[0] = 150

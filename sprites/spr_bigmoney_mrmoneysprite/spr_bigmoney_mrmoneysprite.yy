@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_bigmoney_mrmoneysprite",
   "bbox_bottom": 539,
-  "bbox_left": 111,
-  "bbox_right": 958,
-  "bbox_top": 111,
+  "bbox_left": 200,
+  "bbox_right": 734,
+  "bbox_top": 181,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee93b809-07c4-422b-9623-05e5486f92c7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d513a309-88fb-46fc-b859-f21cb92ed5e0",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f54e268c-3ae5-4a37-8063-a94410c3aa0d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4cd3be3f-4574-4049-986f-410cecb8eb49","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee93b809-07c4-422b-9623-05e5486f92c7","path":"sprites/spr_bigmoney_mrmoneysprite/spr_bigmoney_mrmoneysprite.yy",},},},"Disabled":false,"id":"f1e6fc5b-b1e2-42db-8098-67b72bba4455","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d513a309-88fb-46fc-b859-f21cb92ed5e0","path":"sprites/spr_bigmoney_mrmoneysprite/spr_bigmoney_mrmoneysprite.yy",},},},"Disabled":false,"id":"5079ad2d-e890-4a51-9923-b2f541558b53","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

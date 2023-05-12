@@ -1,1 +1,0 @@
-targetRoom = floor_1;

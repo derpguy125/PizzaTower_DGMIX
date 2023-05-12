@@ -37,6 +37,8 @@ with (obj_player)
 	targetDoor = "A"
 	hallway = false
 	hallwaydirection = 1
+	pit = false
+	pitdirection = 1
 	
 	room_startX = x
 	room_startY = y

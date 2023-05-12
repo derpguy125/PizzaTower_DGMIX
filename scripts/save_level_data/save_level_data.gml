@@ -13,6 +13,9 @@ function save_level_data(levelname){
         ini_write_string("Ranks", levelname, global.rank)
     if (global.rank == "d" && "s" != ini_read_string("Ranks", levelname, "none") && "a" != ini_read_string("Ranks", levelname, "none") && "b" != ini_read_string("Ranks", levelname, "none") && "c" != ini_read_string("Ranks", levelname, "none"))
         ini_write_string("Ranks", levelname, global.rank)
-		
+	
+	ini_write_real("Scores", levelname, global.collect)
+	ini_write_real("Laps", levelname, global.laps)
+	
 	ini_close()
 }

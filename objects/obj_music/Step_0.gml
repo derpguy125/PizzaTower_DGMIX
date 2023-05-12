@@ -28,6 +28,8 @@ if (jingle == 0) {
 			case floor_1:
 				currentlyplaying = mu_onepizza
 				break
+			case ancient_1:
+				currentlyplaying = mu_coldspag2
             
         }
 
@@ -49,14 +51,26 @@ if (global.panic == 1 && jingle == 0)
 		else
 			currentlyplaying = mu_pizzatime
 	} else {
-		if global.laps < 2 {
+		if global.laps >= 49 then
+			currentlyplaying = mu_lapX
+		else if global.laps >= 40 and global.laps < 49
+			currentlyplaying = mu_lap7
+		else if global.laps >= 30 and global.laps < 40
+			currentlyplaying = mu_lap6
+		else if global.laps >= 20 and global.laps < 30
+			currentlyplaying = mu_lap5
+		else if global.laps >= 10 and global.laps < 20
+			currentlyplaying = mu_lap4
+		else if global.laps >= 5 and global.laps < 10
+			currentlyplaying = mu_lap3
+		else if global.laps >= 2 and global.laps < 5
+			currentlyplaying = mu_lap2
+		else {
 			if obj_player.character = "N"
 				currentlyplaying = mu_lap1N
 			else
 				currentlyplaying = mu_lap1
-		} else if global.laps < 3
-			currentlyplaying = mu_freefallingescape
-		else currentlyplaying = mu_lapX
+		}
 	}
 if (jingle == 0)
 {

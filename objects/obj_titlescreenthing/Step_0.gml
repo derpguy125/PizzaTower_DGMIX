@@ -6,7 +6,15 @@ if !selected {
 	hudIndex += 0.25
 
 	scr_getinput()
-	get_player_info()
+	
+	if obj_player.character == "N" then {
+		hudSprite = spr_noiseHUD_idle
+		currentPal = spr_noisepalette
+	} else {
+		hudSprite = spr_pepinoHUD
+		currentPal = spr_peppalette
+	}
+	
 	
 	
 	if key_down2 and selection < 3 then {

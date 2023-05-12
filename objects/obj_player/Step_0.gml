@@ -263,8 +263,8 @@ with (obj_player)
         sprite_index = spr_deathstart
         state = 48
     }
-    if (state == 48 && sprite_index == spr_deathend && y > (room_height + 400))
-        game_restart()
+    if (state == 48 && sprite_index == spr_deathend && y > (room_height + 400) && room != timesuproom)
+        back_to_the_hub()
     if ((!instance_exists(baddiegrabbedID)) && (state == 39 || (state == 36 && sprite_index != spr_piledriverland) || state == 88))
         state = 0
     if (!((state == 39 || state == 36)))
