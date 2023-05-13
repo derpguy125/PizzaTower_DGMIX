@@ -71,7 +71,6 @@
     {"name":"obj_flyingenemy","order":4,"path":"objects/obj_flyingenemy/obj_flyingenemy.yy",},
     {"name":"obj_sausageman","order":18,"path":"objects/obj_sausageman/obj_sausageman.yy",},
     {"name":"mu_lap6","order":8,"path":"sounds/mu_lap6/mu_lap6.yy",},
-    {"name":"ancient_6","order":6,"path":"rooms/ancient_6/ancient_6.yy",},
     {"name":"obj_collect","order":3,"path":"objects/obj_collect/obj_collect.yy",},
     {"name":"spr_doorC","order":545,"path":"sprites/spr_doorC/spr_doorC.yy",},
     {"name":"obj_slopePlatform","order":5,"path":"objects/obj_slopePlatform/obj_slopePlatform.yy",},
