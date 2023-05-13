@@ -153,6 +153,7 @@
     {"id":{"name":"obj_destroyable2_big","path":"objects/obj_destroyable2_big/obj_destroyable2_big.yy",},},
     {"id":{"name":"obj_cheeseballblock","path":"objects/obj_cheeseballblock/obj_cheeseballblock.yy",},},
     {"id":{"name":"obj_bombblock","path":"objects/obj_bombblock/obj_bombblock.yy",},},
+    {"id":{"name":"ancient_6","path":"rooms/ancient_6/ancient_6.yy",},},
     {"id":{"name":"obj_reverseminipillar","path":"objects/obj_reverseminipillar/obj_reverseminipillar.yy",},},
     {"id":{"name":"obj_minipillar","path":"objects/obj_minipillar/obj_minipillar.yy",},},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
@@ -1647,6 +1648,7 @@
     {"roomId":{"name":"ancient_4","path":"rooms/ancient_4/ancient_4.yy",},},
     {"roomId":{"name":"ancient_5","path":"rooms/ancient_5/ancient_5.yy",},},
     {"roomId":{"name":"hub_roomsecret1","path":"rooms/hub_roomsecret1/hub_roomsecret1.yy",},},
+    {"roomId":{"name":"ancient_6","path":"rooms/ancient_6/ancient_6.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"png","directory":"","groupParent":null,"isScaled":false,"loadType":"default","mipsToGenerate":0,"targets":-1,},
