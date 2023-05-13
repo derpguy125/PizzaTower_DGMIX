@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_slope",
+  "name": "obj_slopePlatform",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_slope",
-    "path": "sprites/spr_slope/spr_slope.yy",
+    "name": "spr_slopeSemi",
+    "path": "sprites/spr_slopeSemi/spr_slopeSemi.yy",
   },
   "spriteMaskId": null,
   "visible": true,

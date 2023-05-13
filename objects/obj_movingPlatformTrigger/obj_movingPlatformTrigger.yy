@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_slope",
-  "eventList": [],
+  "name": "obj_movingPlatformTrigger",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",
     "path": "folders/Objects/Unown Collisions/Collision.yy",
   },
-  "parentObjectId": {
-    "name": "par_collision",
-    "path": "objects/par_collision/par_collision.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_slope",
-    "path": "sprites/spr_slope/spr_slope.yy",
+    "name": "spr_unownMovingPlatformTrigger",
+    "path": "sprites/spr_unownMovingPlatformTrigger/spr_unownMovingPlatformTrigger.yy",
   },
   "spriteMaskId": null,
   "visible": true,
