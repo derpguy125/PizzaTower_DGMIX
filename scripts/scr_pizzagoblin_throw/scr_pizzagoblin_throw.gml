@@ -39,7 +39,7 @@ function scr_pizzagoblin_throw()
 	            with (instance_create(x, y, obj_bomb))
 	                hsp = (other.image_xscale * 8)
 	            break
-	        case obj_cheeserobot:
+	        case 51:
 	            with (instance_create(x, y, obj_cheeseblob))
 	            {
 	                sprite_index = spr_cheeserobot_goop
@@ -49,7 +49,7 @@ function scr_pizzagoblin_throw()
 	                grav = 0
 	            }
 	            break
-	        case obj_spitcheese:
+	        case 58:
 	            with (instance_create((x + (image_xscale * 6)), (y - 6), obj_spitcheesespike))
 	            {
 	                image_xscale = other.image_xscale
@@ -57,8 +57,8 @@ function scr_pizzagoblin_throw()
 	                vsp = -6
 	            }
 	            break
-	        case obj_trash:
-	        case obj_invtrash:
+	        case 59:
+	        case 60:
 	            with (instance_create((x + (image_xscale * 6)), (y - 6), obj_cheeseball))
 	            {
 	                image_xscale = other.image_xscale
@@ -66,7 +66,7 @@ function scr_pizzagoblin_throw()
 	                vsp = -4
 	            }
 	            break
-	        case obj_robot:
+	        case 52:
 	            with (instance_create(x, y, obj_robotknife))
 	            {
 	                image_xscale = other.image_xscale
