@@ -1676,8 +1676,11 @@
     {"roomId":{"name":"ancient_5","path":"rooms/ancient_5/ancient_5.yy",},},
     {"roomId":{"name":"hub_roomsecret1","path":"rooms/hub_roomsecret1/hub_roomsecret1.yy",},},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"roomId":{"name":"ancient_6","path":"rooms/ancient_6/ancient_6.yy",},},
     {"roomId":{"name":"test_1","path":"rooms/test_1/test_1.yy",},},
+=======
+>>>>>>> parent of 5cf7790 (ancient 6 and also before the unown collision code import)
 =======
 >>>>>>> parent of 5cf7790 (ancient 6 and also before the unown collision code import)
   ],
