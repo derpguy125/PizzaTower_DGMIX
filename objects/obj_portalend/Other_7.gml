@@ -13,8 +13,9 @@ if (sprite_index == spr_pizzaportalend)
 		ds_list_clear(global.escapecollect)
 		global.lapping = 1
 		global.combotime = 60 * 4
+		global.collect += 2000
 		global.laps += 1
-		global.fill += floor(max(0,(global.startfill - (floor(global.startfill / 10) * (-global.laps + 20)))))
+		global.fill += floor(max(0,global.startfill - ((global.startfill / 10) * global.laps)))
 		queue_message("Get ready to start lap " + string(global.laps + 1) + "!!")
     }
 }

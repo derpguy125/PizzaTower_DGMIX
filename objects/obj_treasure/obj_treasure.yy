@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_treasure1",
-    "path": "sprites/spr_treasure1/spr_treasure1.yy",
+    "name": "spr_treasure_pb",
+    "path": "sprites/spr_treasure_pb/spr_treasure_pb.yy",
   },
   "spriteMaskId": null,
   "visible": true,

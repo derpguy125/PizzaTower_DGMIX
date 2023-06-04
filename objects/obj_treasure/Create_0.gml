@@ -1,8 +1,8 @@
 image_speed = 0.35
-sprgot = 728
-spridle = 729
+spridle = spr_treasure_pb
 spr = spr_cheeseblob
 
+finishcutscene = false;
 collected = false
 
 siner = 0

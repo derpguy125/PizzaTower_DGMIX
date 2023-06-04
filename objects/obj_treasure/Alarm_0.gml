@@ -1,4 +1,5 @@
 obj_player.state = 44
+finishcutscene = true;
 obj_player.image_index = 0
 obj_player.sprite_index = obj_player.spr_Timesup
 ds_list_clear(global.baddieroom)
