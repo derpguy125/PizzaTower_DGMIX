@@ -1,5 +1,6 @@
 display_set_gui_size(960, 540)
 pal_swap_set(spr_peppalette, global.paletteselect, 0)
+/*
 if (global.playerhealth == 8)
     draw_sprite_ext(spr_pizzahealthbar, 0, 100, 80, 1, 1, 1, c_white, alpha)
 else if (global.playerhealth == 7)
@@ -15,7 +16,7 @@ else if (global.playerhealth == 3)
 else if (global.playerhealth == 2)
     draw_sprite_ext(spr_pizzahealthbar, 6, 100, 80, 1, 1, 1, c_white, alpha)
 else if (global.playerhealth == 1)
-    draw_sprite_ext(spr_pizzahealthbar, 7, 100, 80, 1, 1, 1, c_white, alpha)
+    draw_sprite_ext(spr_pizzahealthbar, 7, 100, 80, 1, 1, 1, c_white, alpha)*/
 
 
 if (obj_player.state != 48)

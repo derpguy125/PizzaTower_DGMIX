@@ -105,9 +105,9 @@ with (obj_player)
             instance_create(x, y, obj_pizzaloss)
             instance_create(x, y, obj_pizzaloss)
         }
-        if (obj_player.shotgunAnim == 0)
-            global.playerhealth -= 1
-        else if (obj_player.shotgunAnim == 1)
+        //if (obj_player.shotgunAnim == 0)
+            //global.playerhealth -= 1
+        if (obj_player.shotgunAnim == 1)
         {
             obj_player.shotgunAnim = 0
             with (instance_create(x, y, obj_knightdebris))
