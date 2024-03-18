@@ -67,6 +67,7 @@
   "resources":[
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},},
     {"id":{"name":"min3r level description","path":"notes/min3r level description/min3r level description.yy",},},
+    {"id":{"name":"ancient level description","path":"notes/ancient level description/ancient level description.yy",},},
     {"id":{"name":"readme","path":"notes/readme/readme.yy",},},
     {"id":{"name":"obj_10","path":"objects/obj_10/obj_10.yy",},},
     {"id":{"name":"obj_100","path":"objects/obj_100/obj_100.yy",},},

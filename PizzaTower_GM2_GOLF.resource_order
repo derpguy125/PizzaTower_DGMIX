@@ -43,6 +43,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"min3r level description","order":6,"path":"notes/min3r level description/min3r level description.yy",},
+    {"name":"ancient level description","order":7,"path":"notes/ancient level description/ancient level description.yy",},
     {"name":"obj_bigmoney_intro","order":16,"path":"objects/obj_bigmoney_intro/obj_bigmoney_intro.yy",},
     {"name":"obj_characterselecter","order":20,"path":"objects/obj_characterselecter/obj_characterselecter.yy",},
     {"name":"obj_cheeserobot","order":1,"path":"objects/obj_cheeserobot/obj_cheeserobot.yy",},
